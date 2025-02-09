@@ -21,6 +21,7 @@ html {
 
 body {
     background-color: #151018;
+    overflow-x: hidden ;
 }
 
 
@@ -45,7 +46,7 @@ header {
     color: white;
     justify-content: space-around;
     align-items: center;
-    background-color: #0c0c0ce0;
+    background-color: #151018e3;
     border-radius: 15px;
 }
 
@@ -192,6 +193,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    padding-top: .3vw;
 }
 
 .competition-text button{
@@ -313,5 +315,124 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.5vw;
+    gap: 3vw;
+}
+
+.contests_section {
+    width: 98vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contests_section-container {
+    width: 80%;
+    display: flex;
+    column-gap: 3vw;
+    row-gap: 3vw;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.search_section {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.search_section-input {
+    width: 40%;
+    height: 25%;
+    border-radius: .31vw;
+    border: 0px;
+    padding: .5vw;
+    color: black;
+}
+
+.search_section button {
+    width: 6vw;
+    height: 1.82vw;
+    background-color:rgb(25, 173, 92);
+    border: 0px;
+    border-radius: .41vw;
+    cursor: pointer;  
+    font-size: 1vw;
+    transition: .2s;
+}
+
+.search_section button:hover {
+    background-color: rgb(28, 138, 77);
+}
+
+.feedback_section {
+    width: 200%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feedback_section-box {
+    background-color: #cacaca;
+    width: 36.458vw;
+    height: 18.229vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .51vw;
+}
+
+.feedback_section-author {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.feedback_section-author p{
+    color: #151018;
+    font-size: 2vw;
+}
+
+.feedback_section-text {
+    color: #151018;
+    font-size: .91vw;
+}
+
+.feedback_section-date {
+    color: #151018;
+}
+
+.feedback_section-button {
+    color: #151018;
+    border: 0px;
+    width: 20%;
+    height: 10%;
+    border-radius: .31vw;
+    background-color:rgb(25, 173, 92);
+    color: white;
+    cursor: pointer;
+}
+
+.feedback_section-button:hover {
+    background-color: rgb(28, 138, 77);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 978px) {
+    
 }
