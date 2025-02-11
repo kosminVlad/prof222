@@ -424,7 +424,27 @@ main {
     background-color: rgb(28, 138, 77);
 }
 
+footer {
+    width: 100%;
+    height: 100PX;
+    border-top: 1px solid rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
 
+.footer-nav {
+    display: flex;
+    gap: 1vw;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
 
 
 
