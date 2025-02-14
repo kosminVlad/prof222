@@ -9,28 +9,32 @@
 </head>
 
 <body>
+    <!-- шапка -->
     <header>
         <div class="header-container">
             <a class="logo">Моя семья - <br> мой космос</a>
 
             <nav class="header-nav">
-                <a href="#">Личный кабинет</a>
+                <a href="pages/account.html">Личный кабинет</a>
                 <a href="#aboutUs">О нас</a>
                 <a href="#">Конкурс</a>
-                <a href="#">Поиск</a>
-                <a href="#">Контакты</a>
+                <a href="#search">Поиск</a>
+                <a href="#footer">Контакты</a>
             </nav>
 
             <div class="registration_block">
-                <a href="#" id="reg"> Регистрация </a>
+                <a href="registration.html" id="reg"> Регистрация </a>
                 <a href="#" id="login"> Авторизация </a>
                 <a href="#"><img src="" alt=""></a>
             </div>
         </div>
     </header>
 
+    <!-- Main-контент -->
+    
     <main>
-
+        
+        <!-- баннер-приветствие -->
         <div class="banner-block">
             <div class="banner-text">
                 <h1> Моя семья - мой космос </h1>
@@ -40,16 +44,17 @@
 
             <div class="banner-images">
                 <div>
-                    <img class="banner-img left-top" src="aksksa.jpg" alt="">
-                    <img class="banner-img right-top" src="gsfd.jpg" alt="">
+                    <img class="banner-img left-top" src="images/aksksa.jpg" alt="">
+                    <img class="banner-img right-top" src="images/gsfd.jpg" alt="">
                 </div>
                 <div>
-                    <img class="banner-img left-bot" src="gsfd.jpg" alt="">
-                    <img class="banner-img" src="aksksa.jpg" alt="">
+                    <img class="banner-img left-bot" src="images/gsfd.jpg" alt="">
+                    <img class="banner-img" src="images/aksksa.jpg" alt="">
                 </div>
             </div>
         </div>
 
+        <!-- популярные конкурсы -->
         <h1 style="font-size: 3vw;"> Популярные конкурсы </h1>
 
         <section class="competitions-block">
@@ -61,7 +66,7 @@
                         <div class="boxes">
 
                             <div class="competition-box">
-                                <img class="competition-img" src="aksksa.jpg" alt="">
+                                <img class="competition-img" src="images/aksksa.jpg" alt="">
                                 <div class="competition-text">
                                     <h1 style="font-size: 1.8vw;"> Галактический смех </h1>
                                     <p> Цель: заставить других семей рассмеяться и выиграть титул "Самая смешная семья в
@@ -76,7 +81,7 @@
                             </div>
 
                             <div class="competition-box">
-                                <img class="competition-img" src="ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
+                                <img class="competition-img" src="images/ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
                                 <div class="competition-text">
                                     <h1 style="font-size: 1.8vw;"> Танцевальный поединок пришельцев </h1>
                                     <p> Цель: показать свои лучшие танцевальные шаги и выиграть титул "Лучший танцор из
@@ -91,7 +96,7 @@
                             </div>
 
                             <div class="competition-box">
-                                <img class="competition-img" src="aksksa.jpg" alt="">
+                                <img class="competition-img" src="images/aksksa.jpg" alt="">
                                 <div class="competition-text">
                                     <h1 style="font-size: 1.8vw;"> Звездный рассказ </h1>
                                     <p> Цель: рассказать самую интересную и захватывающую историю, связанную с космосом.
@@ -112,14 +117,14 @@
 
                 <div class="competition-circles">
                     <div class="competition-circle"></div>
+                    <div class="competition-circle "></div>
                     <div class="competition-circle green"></div>
-                    <div class="competition-circle green"></div>
-                    <div class="competition-circle green"></div>
+                    <div class="competition-circle"></div>
                     <div class="competition-circle"></div>
                 </div>
         </section>
 
-
+        <!-- авторизация -->
 
         <section class="authorization_section">
             <h1 style="font-size: 3vw; margin-bottom: 3vw;"> Авторизация </h1>
@@ -130,6 +135,8 @@
             <button class="authorization_section-button"> Вход </button>
             <a href="#" class="authorization_section-link"> Забыли пароль? </a>
         </section>
+
+        <!-- о нас -->
 
         <section class="aboutUs_section" id="aboutUs">
             <div class="aboutUs_section-container">
@@ -147,19 +154,24 @@
                         к нам!
                     </p>
                 </div>
-                <img class="aboutUs_section-img" src="1.jpg" alt="">
+                <img class="aboutUs_section-img" src="images/1.jpg" alt="">
             </div>
         </section>
 
+        <!-- видео-приветствие -->
+
         <section class="video_section">
             <h1 style="font-size: 3vw"> Видео-приветствие </h1>
-            <video style="width: 30vw; z-index: -1;" src="video_2024-12-28_01-17-41.mp4" controls></video>
+            <video style="width: 30vw; z-index: -1;" src="videos/video_2024-12-28_01-17-41.mp4" controls></video>
         </section>
+
+        <!-- конкурсы -->
 
         <section class="contests_section">
             <div class="contests_section-container">
+                
                 <div class="competition-box">
-                    <img class="competition-img" src="aksksa.jpg" alt="">
+                    <img class="competition-img" src="images/aksksa.jpg" alt="">
                     <div class="competition-text">
                         <h1 style="font-size: 1.8vw;"> Галактический смех </h1>
                         <p> Цель: заставить других семей рассмеяться и выиграть титул "Самая смешная семья в
@@ -174,7 +186,7 @@
                 </div>
 
                 <div class="competition-box">
-                    <img class="competition-img" src="ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
+                    <img class="competition-img" src="images/ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
                     <div class="competition-text">
                         <h1 style="font-size: 1.8vw;"> Танцевальный поединок пришельцев </h1>
                         <p> Цель: показать свои лучшие танцевальные шаги и выиграть титул "Лучший танцор из
@@ -189,7 +201,7 @@
                 </div>
 
                 <div class="competition-box">
-                    <img class="competition-img" src="aksksa.jpg" alt="">
+                    <img class="competition-img" src="images/aksksa.jpg" alt="">
                     <div class="competition-text">
                         <h1 style="font-size: 1.8vw;"> Звездный рассказ </h1>
                         <p> Цель: рассказать самую интересную и захватывающую историю, связанную с космосом.
@@ -204,7 +216,7 @@
                 </div>
 
                 <div class="competition-box">
-                    <img class="competition-img" src="ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
+                    <img class="competition-img" src="images/ff8e3cfb-5c78-55da-ae50-f03cfde8e293.jpeg" alt="">
                     <div class="competition-text">
                         <h1 style="font-size: 1.8vw;"> Танцевальный поединок пришельцев </h1>
                         <p> Цель: показать свои лучшие танцевальные шаги и выиграть титул "Лучший танцор из
@@ -219,7 +231,7 @@
                 </div>
 
                 <div class="competition-box">
-                    <img class="competition-img" src="aksksa.jpg" alt="">
+                    <img class="competition-img" src="images/aksksa.jpg" alt="">
                     <div class="competition-text">
                         <h1 style="font-size: 1.8vw;"> Звездный рассказ </h1>
                         <p> Цель: рассказать самую интересную и захватывающую историю, связанную с космосом.
@@ -234,6 +246,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- поиск -->
 
         <section class="search_section">
             <h1 style="font-size: 3vw;"> Поиск конкурса </h1>
@@ -241,12 +255,15 @@
             <button> Найти </button>
         </section>
 
+
+        <!-- отзывы -->
+
         <h1 style="font-size: 3vw;"> Отзывы </h1>
         <section class="feedback_section">
             <div class="feedback_section-box">
                 <div>
                     <div class="feedback_section-author">
-                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="2.jpg" alt=""></div>
+                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="images/2.jpg" alt=""></div>
                         <p class="feedback_section-name"> Жека </p>
                     </div>
                     <p class="feedback_section-text">Признаюсь, сначала я немного скептически отнесся к идее
@@ -265,7 +282,7 @@
             <div class="feedback_section-box">
                 <div>
                     <div class="feedback_section-author">
-                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="2.jpg" alt=""></div>
+                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="images/2.jpg" alt=""></div>
                         <p class="feedback_section-name"> Жека </p>
                     </div>
                     <p class="feedback_section-text">Признаюсь, сначала я немного скептически отнесся к идее
@@ -284,7 +301,7 @@
             <div class="feedback_section-box">
                 <div>
                     <div class="feedback_section-author">
-                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="2.jpg" alt=""></div>
+                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="images/2.jpg" alt=""></div>
                         <p class="feedback_section-name"> Жека </p>
                     </div>
                     <p class="feedback_section-text">Я очень благодарна организаторам за такое интересное и насыщенное мероприятие! Катя просто сияла от восторга на протяжении всего праздника. Ей особенно понравилось рисовать космические корабли и участвовать в конкурсе на лучший космический наряд. Я была приятно удивлена, что здесь было предусмотрено развлечение для детей разных возрастов. Даже я, будучи человеком старшего поколения, открыла для себя много нового и интересного о космосе. Спасибо за возможность провести такой замечательный день всей семьей!</p>
@@ -297,7 +314,7 @@
             <div class="feedback_section-box">
                 <div>
                     <div class="feedback_section-author">
-                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="2.jpg" alt=""></div>
+                        <div class=""><img style="width: 5vw; border-radius: 1111px;" src="images/2.jpg" alt=""></div>
                         <p class="feedback_section-name"> Жека </p>
                     </div>
                     <p class="feedback_section-text">Это был настоящий космический праздник для всей нашей семьи! Мои дети, 5-летние Саша и Даша, просто не могли нарадоваться всем развлечениям и активностям. Им особенно запомнились мастер-класс по созданию ракет и викторина, в которой они с азартом отвечали на вопросы о космосе. Но самым ярким моментом для них стал, конечно же, запуск воздушных шаров в виде планет. Мы до сих пор хвастаемся друзьям и родственникам этими красочными фотографиями. Спасибо за незабываемые впечатления и возможность весело</p>
@@ -310,11 +327,13 @@
         </section>
     </main>
 
+    <!-- Подвал / контакты -->
+
     <footer id="footer">
         <nav class="footer-nav">
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
             <a href="#aboutUs">Главная-светлая</a>
-            <a href="#">Регистрация</a>
+            <a href="pages/registration.html">Регистрация</a>
             <a href="#">Конкурс</a>
             <a href="#">Личный кабинет</a>
             <a href="#"> Страница не найдена </a>

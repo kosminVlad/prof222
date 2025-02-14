@@ -433,6 +433,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1vw;
+    bottom: 0;
 }
 
 .footer-nav {
