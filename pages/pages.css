@@ -248,6 +248,13 @@ main {
     background-color: rgb(28, 138, 77);
 }
 
+.error_section {
+    width: 98vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* подвал */
 
