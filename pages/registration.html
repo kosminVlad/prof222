@@ -5,46 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя семья - мой космос</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="pages.css">
 </head>
 
 <body>
     <!-- шапка -->
     <header>
         <div class="header-container">
-            <a class="logo">Моя семья - <br> мой космос</a>
+            <a href="../index.html" class="logo">Моя семья - <br> мой космос</a>
 
             <nav class="header-nav">
-                <a href="pages/account.html">Личный кабинет</a>
-                <a href="#aboutUs">О нас</a>
-                <a href="#">Конкурсы </a>
-                <a href="#search">Поиск</a>
-                <a href="#footer">Контакты</a>
+                <a href="account.html">Личный кабинет</a>
+                <a href="../index.html#aboutUs">О нас</a>
+                <a href="competitions.html">Конкурсы </a>
+                <a href="../index.html#search">Поиск</a>
+                <a href="../index.html#footer">Контакты</a>
             </nav>
 
             <div class="registration_block">
                 <a href="registration.html" id="reg"> Регистрация </a>
-                <a href="#login_section" id="login"> Авторизация </a>
-                <a href="pages/index-light.html"><img src="" alt=""></a>
+                <a href="../index.html#login_section" id="login"> Авторизация </a>
+                <a href="pages/index-light.html"><img style="width: 2vw;" src="images/sun-svgrepo-com.svg" alt=""></a>
             </div>
         </div>
     </header>
 
     <main>
+
+
         <section class="registration_section">
-            <h1>Регистрация</h1>
-            
+            <h1 style="font-size: 2vw;">Регистрация</h1>
+            <form action="" class="registration_form">
+                <input class="registration_input" type="email" placeholder="E-mail" required>
+                <input class="registration_input" type="text" placeholder="Имя" required>
+                <input class="registration_input" type="date" placeholder="Возраст" required>
+                <select class="registration_input" name="gender" id="gender" required>
+                    <option style="color: #151018;" value="male">Мужской</option>
+                    <option style="color: #151018;" value="female">Женский</option>
+                </select>
+                <input class="registration_input" type="password" placeholder="Пароль" required>
+                <input class="registration_input" type="password" placeholder="Повтор пароля" required>
+                <input class="registration_input" type="file" placeholder="Загрузить семейное фото" required>
+                <label style="font-size: .8vw;" for="checkbox"> <input type="checkbox" required> Согласие на обработку персональных данных </label>
+                <span style="color: red;"> Пароли должны совпадать. </span>
+                <button class="registration_input" type="submit"> зарегистрироваться </button>
+            </form>
+
         </section>
     </main>
 
     <footer id="footer">
         <nav class="footer-nav">
-            <a href="#">Главная</a>
-            <a href="#aboutUs">Главная-светлая</a>
-            <a href="#">Регистрация</a>
-            <a href="#">Конкурс</a>
-            <a href="#">Личный кабинет</a>
-            <a href="#"> Страница не найдена </a>
+            <a href="../index.html">Главная</a>
+            <a href="pages/index-light.html">Главная-светлая</a>
+            <a href="pages/registration.html">Регистрация</a>
+            <a href="pages/competitions.html">Конкурс</a>
+            <a href="pages/account.html">Личный кабинет</a>
+            <a href="pages/404.html"> Страница не найдена </a>
         </nav>
         <div class="footer-contacts">
             <a href="#">+7 (4842) 23-45-67 </a>

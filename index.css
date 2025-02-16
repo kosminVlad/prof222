@@ -19,6 +19,7 @@ a {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -30,8 +31,8 @@ body {
 /* header и кнопки */
 
 header {
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;

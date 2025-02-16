@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Общие стили */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", serif;
+    color:white ;
+    font-size: 0.833vw;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    background-color: #151018;
+    overflow-x: hidden ;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* header и кнопки */
+
+header {
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    font-size: 1.5vw;
+}
+
+.header-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151018e3;
+    border-radius: 15px;
+}
+
+.header-nav {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    gap: 0.781vw;
+    font-size: 1.042vw;
+}
+
+.header-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.header-nav a:hover {
+    color: #cacaca;
+}
+
+.registration_block {
+    display: flex;
+    gap: 1.042vw;
+}
+
+#reg {
+    background-color: rgb(25, 173, 92);
+    border-radius: 0.26vw;
+    color: rgb(255, 255, 255);
+    font-size: 1.042vw;
+    padding: 0.365vw 0.521vw;
+    transition: ease-out all .2s ; 
+}
+
+#reg:hover {
+    background-color: rgb(28, 138, 77);
+}
+
+#login {
+    background-color: lightgrey;
+    color: rgb(27, 27, 27);
+    border-radius: 0.26vw;
+    font-size: 1.042vw;
+    padding: 0.365vw 0.521vw;
+    transition: ease-out all .2s ; 
+}
+
+#login:hover {
+    background-color: rgb(184, 184, 184);
+    
+}
+
+main {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.registration_section {
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    gap: .51vw;
+    align-items: start;
+}
+
+.registration_form button {
+    background-color: rgb(25, 173, 92);
+    color: white;
+    margin-top: 1.2vw;
+    cursor: pointer;
+}
+
+.registration_form button:hover {
+    background-color: rgb(28, 138, 77);
+}
+
+.registration_input {
+    width: 40vw;
+    height: 2.4vw;
+    border-radius: .3vw;
+    border: 0px;
+    color: #151018;
+    padding: .71vw ;
+    background-color: white;
+}
+
+.competition_section {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.competition-container {
+    width: 90%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.competition-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.competition-text p {
+    font-size: 1vw;
+}
+
+.competition-text h1 {
+    font-size: 2.7vw;
+}
+
+.comppetition-img {
+    width: 50%;
+}
+
+.competition-img img {
+    width: 41vw;
+}
+
+.competition-rating_date {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.account-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.account-form {
+    display: flex;
+    width: 40vw;
+    height: 35vh;  
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    align-items: center;
+}
+
+.account-form select {
+    color: #151018;
+}
+
+.account-form_atribute {
+    border-radius: 5px;
+    height: 2vw;
+    border: 0px;
+    color: #151018;
+    padding: .25vw;
+    width: 100%;
+}
+
+.account-form button {
+    background-color: rgb(25, 173, 92);
+    border: 0px;
+    width: 100%;
+    height: 2vw;
+    margin-top: .5vw;
+    border-radius: .25vw;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.account-form button:hover {
+    background-color: rgb(28, 138, 77);
+}
+
+
+/* подвал */
+
+footer {
+    width: 100%;
+    height: 5vw;
+    border-top: 1px solid rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    bottom: 0;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1vw;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+@media (max-width: 1024px) {
+    .account-form {
+        width: 50vw;
+        height: 45vh;
+    }
+
+    .account-form_atribute {
+        height: 3vw;
+        font-size: 2vw;
+    }
+
+    .account-form_atribute option{
+        font-size: 1.5vw;
+    }
+
+    .account-form button {
+        height: 3vw;
+        font-size: 1.52vw;
+    }
+}
+
+
+@media (max-width: 900px) {
+    main {
+        height: 90vh;
+    }
+
+    .competition_section {
+        height: 100%;
+        margin-top: 30vh;
+    }
+
+    .competition-container {
+        height: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        gap: 1vw;
+    }
+
+    .competition-img img {
+        width: 70vw;
+    }
+
+    .competition-text {
+        width: 80%;
+    }
+
+    .competition-text p{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+}
