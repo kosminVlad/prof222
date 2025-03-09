@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(media/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
 
 /* Общие стили */
 
@@ -9,6 +12,7 @@
     font-family: "Comfortaa", serif;
     color:white ;
     font-size: 0.833vw;
+    font-weight: 300;
 }
 
 a {
@@ -123,6 +127,7 @@ main {
 
 .banner-block {
     width: 70%;
+    height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -309,6 +314,7 @@ main {
     width: 80%;
     display: flex;
     gap: 3vw;
+    align-items: center;
 }
 
 .aboutUs_section-text {
@@ -321,8 +327,14 @@ main {
 
 .aboutUs_section-img {
     width: 40vw;
-    height: auto;
+    height: 30vw;
     border-radius: 1vw;
+}
+
+.aboutUs-p {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw
 }
 
 /* видео-приветсвие */
